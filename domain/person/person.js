@@ -21,6 +21,12 @@ class Person {
           var diffDate = new Date(diff)
           return Math.abs(diffDate.getUTCFullYear() - 1970)
         }
+        getNik(){
+          return this.nik
+        }
+        getBod(){
+          return this.bod
+        }
   }
 
     module.exports = Person;
